@@ -1,7 +1,9 @@
 #pragma once
 #include<iostream>
 #include<string>
-#include<fstream>
+#include <stdio.h>      /* printf, NULL */
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
 
 using namespace std;
 
@@ -11,21 +13,13 @@ public:
 	Kid();
 	~Kid();
 
-	void addKid();
-	void removeKid();
 	void takeDamage(int damage);
 	bool isAlive();
-	string getPersonName();
-	string getType();
-	string getPhrase();
 	int getCoolnessLevel();
 	int getLameLevel();
 	int getHealth();
 	
 protected:
-	string personName;
-	string type;
-	string phrase;
 	int coolnessLevel;//only up to five
 	int lameLevel;
 	int health;//max out at 100

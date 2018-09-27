@@ -7,14 +7,6 @@ Kid::~Kid()
 {
 }
 
-void Kid::addKid()
-{
-}
-
-void Kid::removeKid()
-{
-}
-
 
 void Kid::takeDamage(int damage)
 {
@@ -33,20 +25,6 @@ bool Kid::isAlive()
 	}
 }
 
-string Kid::getPersonName()
-{
-	return personName;
-}
-
-string Kid::getType()
-{
-	return type;
-}
-
-string Kid::getPhrase()
-{
-	return phrase;
-}
 
 int Kid::getCoolnessLevel()
 {
@@ -62,3 +40,4 @@ int Kid::getHealth()
 {
 	return health;
 }
+

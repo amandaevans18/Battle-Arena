@@ -2,12 +2,10 @@
 
 Losers::Losers()
 {
-	personName;
-	type;
-	phrase;
-	coolnessLevel;
-	lameLevel;
-	health;
+
+	coolnessLevel = 0;
+	lameLevel = 10;
+	health = 50;
 }
 
 Losers::~Losers()

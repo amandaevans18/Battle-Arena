@@ -2,12 +2,10 @@
 
 CoolKids::CoolKids()
 {
-	personName;
-	type;
-	phrase;
-	coolnessLevel;
-	lameLevel;
-	health;
+
+	coolnessLevel = 10;
+	lameLevel = 0;
+	health = 50;
 }
 
 CoolKids::~CoolKids()
