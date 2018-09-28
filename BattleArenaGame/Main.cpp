@@ -1,6 +1,5 @@
 #include "CoolKids.h"
 #include"Losers.h"
-#include "Manager.h"
 
 
 //the basic loop but very wrong in all ways....!
